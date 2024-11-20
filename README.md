@@ -17,9 +17,9 @@ Caso queira verificar o código, é o createInserts.
 Ter as bibliotecas PSYCOPG2 e CASSANDRA instaladas.
 Além de estar rodando um docker local conectado no Cassandra.
 
-docker pull cassandra:latest
+docker network create cassandra-cluster
 
-docker run --name Projeto cassandra:latest
+docker run -d --name Projeto --network cassandra-cluster -p 9042:9042 cassandra:latest
 
 # DESCRIÇÃO DE USO:
 
