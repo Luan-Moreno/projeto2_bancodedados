@@ -1,0 +1,45 @@
+Todas as tabelas foram criadas de acordo com os selects pedidos, então irão retornar exatamente o que foi pedido.
+
+aluno_notas:
+    id_aluno : Id unico de aluno
+    nome_aluno : Nome do aluno
+    id_disciplina :Id da disciplina
+    nome_disciplina : Nome da disciplina cursada
+    id_curso :Id do curso que o aluno cursou
+    curso_nome :Nome do curso que o aluno cursou   
+    semestre :Semestre que o aluno cursou tal disciplina
+    ano : Ano que o aluno cursou tal disciplina
+    nota : Nota final do aluno em tal disciplina
+
+professor_aulas:
+    id_professor :Id do professor
+    nome_professor : Nome do professor
+    id_disciplina : Id da disciplina dada pelo professor
+    nome_disciplinas :Nome da disciplina dada pelo professor
+    id_curso : Id do curso onde a discplina é "localizada"
+    curso_nome :Nome do curso
+    semestre :Em qual semestre tal disciplina acontece
+    ano : Ano que o professor deu tal disciplina 
+
+alunos_graduados:
+    id_aluno :Id do aluno graduado
+    nome_aluno :Nome do aluno graduado
+    id_curso : Id do curso que o aluno cursou
+    nome_curso :Nome do cursou que o aluno cursou
+    id_disciplina :Id da discplina cursada
+    nome_disc :Nome da disciplina cursada  
+    ano : Qual ano tal disciplina foi cursada
+    semestre :Semestre que tal disciplina foi cursada
+
+departamento:
+    id_professor : Id do professor chefe de departamento
+    nome_professor : Nome do professor chefe de departamento
+    id_chefe_departamento : Id do departamento que o professor é chefe
+    nome_chef_departamento : Nome do departamento que o professor é chefe
+
+tccs:
+    id_tcc : Id do TCC feito pelo aluno e ministrado pelo professor
+    id_aluno : Id do aluno que fez tal tcc
+    nome_aluno : Nome do aluno que fez tal TCC
+    id_professor : Id do professor que ministrou tal TCC
+    nome_professor : Nome do professor que ministrou tal TCC
