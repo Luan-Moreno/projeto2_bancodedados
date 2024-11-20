@@ -1,0 +1,24 @@
+Como esse é um projeto de WIDE-COLUMN STORAGE, basta fazer um select de qualquer uma das 5 tabelas, já que elas foram pensadas de acordo
+com os selects necessários.
+
+--SELECT 1
+
+SELECT * FROM aluno_notas
+where id_aluno = #Id do aluno que desejar."
+
+--SELECT 2
+
+SELECT * FROM professor_aulas
+where id_professor = #Id do professor que desejar."
+
+--SELECT 3
+
+SELECT * FROM alunos_graduados
+
+--SELECT 4
+
+SELECT * FROM departamento
+
+--SELECT 5
+
+SELECT * FROM tccs
